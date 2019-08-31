@@ -1,0 +1,103 @@
+/*--------------------------------------------*/
+/* Configuraciones Generales*/
+/*--------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lacquer', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0px auto; /*(arriba,abajo) (a los costados)*/
+}
+
+/*--------------------------------------------*/
+/* Seccion principal*/
+/*--------------------------------------------*/
+.title {
+    display: inline-block;
+}
+.main-nav {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+/*COMENTARIO*/
+.main-nav li {
+    display: inline-block;
+    margin: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {                 /*cuando se pasa el mouse por ensima se pinta la linea */
+    text-decoration: none;
+    color: #e1560b;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.8s;
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:visited {                 /*cuando este activado va a cambiar el color*/
+    text-decoration: none;
+    color: #e1560b;
+    border-bottom: 2px solid #e1560b;
+}
+
+.motto {
+    font-size: 0.8em;
+    font-weight: 50px;
+    padding-top: 50%;
+}
+
+.principal-imagen {
+    background-image: url(img/Ash.jpeg);
+    background-size: contain;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+ *
+/* --------------------------------*/
+/* GENERAL SETTINGS */
+/* --------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #535353;
+}
