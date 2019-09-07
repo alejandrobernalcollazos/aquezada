@@ -130,3 +130,51 @@ p {
     width: 60vh;
     float: right;
 }
+
+/* --------------------------------*/
+/* IMAGES SECTION */
+/* --------------------------------*/
+
+.images {
+
+}
+
+.images-gallery {
+    list-style: none;
+    width: 100%;
+}
+
+.images-gallery li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.photo {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.20);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.clearfix { zoom: 1 }
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
