@@ -122,7 +122,7 @@ p {
 }
 
 .principal-image {
-    background-image: url(img/principal_section_image.jpg);
+    background-image: url(../img/ashley.jpeg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@ p {
     opacity: 0.7;
     width: 100%;
     height: auto;
-    transform: scale(1.20);
+    transform: scale(1.5);
     transition: transform 0.5s, opacity 0.5s;
 }
 
@@ -177,4 +177,26 @@ p {
     display: block;
     height: 0;
     visibility: hidden;
+}
+
+/* --------------------------------*/
+/* EXPERIENCIE SECTION */
+/* --------------------------------*/
+
+.experience-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.experience-title h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.experience-box {
+    padding: 2%;
+    margin-bottom: 5%;
 }
