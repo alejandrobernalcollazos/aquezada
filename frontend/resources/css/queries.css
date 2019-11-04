@@ -179,3 +179,22 @@
 .
 .
 }
+
+
+.
+.
+.
+@media only screen and (max-width: 568px) {
+.
+.
+.
+    /* --------------------------------*/
+    /* Experience section */
+    /* --------------------------------*/
+
+    .experience-box {
+        width: 100%;
+        padding: 4%;
+        height: auto;
+    }
+}
